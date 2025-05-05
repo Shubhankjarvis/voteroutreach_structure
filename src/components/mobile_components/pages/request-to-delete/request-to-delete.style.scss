@@ -1,0 +1,124 @@
+.request_to_delete_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #F7F7FC;
+}
+
+.rtdc_button_container {
+    height: 98px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #F2F2F2;
+    background-color: white;
+}
+
+
+.rtdc_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.rtdc_button {
+    height: 56px;
+    width: 85%;
+    background-color: #F15600;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.rtdc_button_disable {
+    height: 56px;
+    width: 85%;
+    background-color: #facbb1;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.fsc_text_one {
+    font-weight: 700;
+    font-size: 20px;
+    color: #080625;
+}
+
+.fsc_text_two {
+    font-weight: 400;
+    font-size: 14px;
+    color: #716f86;
+}
+
+.first_step_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.second_step_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 40px;
+}
+
+.voter_id_input {
+    height: 48px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+
+}
+
+.ssc_text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #080625;
+}
+
+.ssc_option_container {
+    height: 362px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.spc_option {
+    height: 53px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #F7F7FC;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete_label {
+    width: 90%;
+}
+
+.spc_option_text {
+    font-weight: 700;
+    font-size: 16px;
+    color: #080625;
+
+}
+

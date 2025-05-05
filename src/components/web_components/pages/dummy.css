@@ -1,0 +1,95 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 80px;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  border-radius: 112px;
+  align-items: center;
+}
+
+.navbar-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FFF7EE;
+  padding: 8px;
+  gap: 10px;
+  border-radius: 64px;
+}
+
+.logo-container {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #1F242D1F;
+}
+
+.logo-name {
+  color: #DA8B2E;
+  margin-right: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  height: 24px;
+  overflow: hidden;
+  font-family: 'Anek Devanagari', serif;
+}
+
+.navbar-user-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 12px 16px;
+  gap: 10px;
+  border-radius: 64px;
+  width: 190px;
+}
+
+.notification-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 12px 16px;
+  gap: 10px;
+  border-radius: 64px;
+
+}
+
+.navbar-main-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-photo-container {
+  width: 32px;
+  height: 32px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #1F242D1F;
+}
+
+.user-name {
+  color: black;
+  margin-right: 4px;
+}
+
+.user-photo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 56px;
+}

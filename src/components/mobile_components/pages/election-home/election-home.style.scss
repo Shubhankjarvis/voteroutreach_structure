@@ -1,0 +1,126 @@
+.election_home_main_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.esc_button {
+    height: 56px;
+    border-radius: 8px;
+    background-color: #F05F36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ehmc_second_container {
+    padding: 10px;
+}
+
+.efc_hello {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E6C6C;
+}
+
+.efc_name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #080625;
+}
+
+.edc_label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #080625;
+
+}
+
+.election_content_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.outreach_select_input {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    background-color: white;
+    outline: none;
+}
+
+.esc_dropdown_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ecc_first_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ec_number {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card_for {
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+}
+
+.esc_card_container {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.esc_card {
+    height: 101px;
+    width: 25%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    justify-content: center;
+    padding: 12px;
+}
+
+.FFEDE2 {
+    background-color: #FFEDE2;
+}
+
+.E7FFEE {
+    background-color: #E7FFEE;
+}
+
+.F8F8F8 {
+    background-color: #F8F8F8;
+}
+
+.F05F36 {
+    color: #F05F36;
+}
+
+.green {
+    color: #1A9948
+}
+
+.black {
+    color: #2F2F2F;
+}

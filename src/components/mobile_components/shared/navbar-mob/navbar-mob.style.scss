@@ -1,0 +1,29 @@
+.navbar_mobile_container {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 4px 6px -1px #8A8D9929;
+}
+
+.navbar_page_name {
+    font-weight: 700;
+    font-size: 14px;
+    color: #080625;
+}
+
+.navbar_back_icon_container {
+    height: 24px;
+    width: 24px;
+}
+
+.navbar_back_icon {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar_empty_container {
+    width: 24px;
+    height: 24px;
+}
