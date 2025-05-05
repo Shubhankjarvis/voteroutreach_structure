@@ -1,20 +1,17 @@
 import React from 'react'
 import { Routes , Route , Navigate } from 'react-router-dom'
 import { WebProvider } from '../../context'
-// import Dummy from '../../components/web_components/pages/dummy'
-// import Header from '../../components/web_components/pages/dummy'
-import NavbarComponent from '../../components/web_components/pages/dummy'
-import Table from '../../components/web_components/pages/table'
-// import {lazy, Suspense} from 'react'
+import Layout from '../../components/web_components/shared/layout/layout.jsx'
 
 const AppWebRoutes = () => {
   return (
     <WebProvider>
+        <Layout>
     <Routes>
-        <Route path="/" element={<NavbarComponent />} />
-        <Route path="/table" element={<Table />} />
-       
+        <Route path="/" element={ <div>hii</div>} />
+        {/*<Route path="/table" element={<Table />} />*/}
     </Routes>
+        </Layout>
     </WebProvider>
   )
 }

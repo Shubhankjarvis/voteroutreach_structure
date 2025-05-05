@@ -2,11 +2,23 @@
   display: flex;
   flex-direction: row;
   background-color: white;
-  height: 80px;
-  margin-bottom: 20px;
-  padding: 8px 20px;
+  height: 60px;
+  padding: 8px;
   border-radius: 112px;
   align-items: center;
+  width: 98%;
+}
+
+.navbar-main{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
 }
 
 .navbar-title-container {
@@ -83,8 +95,11 @@
 }
 
 .user-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   color: black;
   margin-right: 4px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .user-photo {

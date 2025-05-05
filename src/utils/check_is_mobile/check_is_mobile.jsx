@@ -3,7 +3,7 @@ function CheckIsMobile() {
     const isDevice = /android|iPad|iPhone|iPod/i.test(userAgent.toLowerCase());
     // const isSmallScreen = window.innerWidth <= 768;
     // return isDevice 
-    return true
+    // return true
 }
 
 export default CheckIsMobile;

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./voter-list.style.scss"
-import NavbarMobile from '../../index'
+import NavbarMobile from '../../shared/navbar-mob/navbar-mob.component.jsx'
 
 const VoterListComponent = () => {
   return (
